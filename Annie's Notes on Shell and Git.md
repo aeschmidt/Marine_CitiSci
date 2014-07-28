@@ -100,7 +100,7 @@ should show 2 remotes, origin and upstream
 If files in remote and local repos both have changes, merge will fail and changes have to be manually resolved
 
 
-This is very useful, thank you Annie.
+
 
 
 

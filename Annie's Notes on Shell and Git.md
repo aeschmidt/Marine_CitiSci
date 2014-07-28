@@ -1,6 +1,8 @@
 # Annie is practicing git and markdown by making some notes on shell and git commands (some of which were copied directly from software carpentry http://software-carpentry.org/v5/novice/ref/02-git.html)
 
 # Git (me a beer)
+# what kind?
+
 ## Getting Started
 To find list of most commonly used git commands use:
 ```

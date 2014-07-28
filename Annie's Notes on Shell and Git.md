@@ -100,7 +100,7 @@ should show 2 remotes, origin and upstream
 If files in remote and local repos both have changes, merge will fail and changes have to be manually resolved
 
 
-
+I'm adding text here.
 
 
 
@@ -108,4 +108,4 @@ If files in remote and local repos both have changes, merge will fail and change
 ```
 history n #show history of last n shell commands
 "Type some text here" > file.txt # creates txt file with one line of text
-subl "filename" # opens file in text editor
+subl "filename" # opens file in text editorI'm adding some text to the end of the file

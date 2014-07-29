@@ -36,7 +36,7 @@
 
 
 
-###7/22/14
+##7/22/14
 - Gaps in citizen science
 - map locations and taxa being crowd studied
 - Citizen

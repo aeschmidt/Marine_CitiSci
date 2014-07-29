@@ -13,3 +13,6 @@
 ### July 28, 2014
 - email list serves about other potential data
 - think about target journal
+
+### July 29, 2014
+- Useful website hosted by Cornell on citizen science http://www.birds.cornell.edu/citscitoolkit/

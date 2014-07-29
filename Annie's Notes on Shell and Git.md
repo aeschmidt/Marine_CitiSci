@@ -19,6 +19,7 @@ git config --global core.editor "your_editor" # sublimetext in my case
 Make directory:
 ```
 mkdir "your_directory" # no quotes?
+#does not need quotes
 ```
 Navigate to directory:
 ```

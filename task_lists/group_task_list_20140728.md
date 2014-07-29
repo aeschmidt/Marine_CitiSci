@@ -27,4 +27,4 @@
 - Annie
     - database structure
     - CalCOFI-CBC
-    - move google docs to github
+    *__Done__* move google docs to github

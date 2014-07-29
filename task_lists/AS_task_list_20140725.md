@@ -1,4 +1,4 @@
-### 7/25/14
+### July 25, 2014
 - Annie
     - check with group about
         - sending email to MARMAM and other listservs

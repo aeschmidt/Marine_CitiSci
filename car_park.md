@@ -10,6 +10,6 @@
 
 - metrics beyond abundance (e.g. diversity)
 
-### 7/28/14
+### July 28, 2014
 - email list serves about other potential data
 - think about target journal

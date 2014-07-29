@@ -1,0 +1,12 @@
+### 7/25/14
+- Annie
+    - check with group about
+        - sending email to MARMAM and other listservs
+        - github repo--what to put there (r-code etc.)
+        - status of data requests
+        - data org
+        - group dinner?
+    - read a few example papers
+    - search for more papers evaluating citizen science in marine systems
+    - write up notes from authorship/collaborator discussion
+    - request eBird data?

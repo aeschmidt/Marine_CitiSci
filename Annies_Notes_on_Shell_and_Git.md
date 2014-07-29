@@ -111,4 +111,8 @@ I'm adding text here.
 ```
 history n #show history of last n shell commands
 "Type some text here" > file.txt # creates txt file with one line of text
-subl "filename" # opens file in text editorI'm adding some text to the end of the file
+subl "filename" # opens file in text editor
+
+mv old new # moves (renames) a file or directory
+```
+

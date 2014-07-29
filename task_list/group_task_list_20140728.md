@@ -1,0 +1,30 @@
+###7/28/14
+- Everyone:
+    - practice md, Rmd, git
+- Georgina
+    - figure out .bib and md and report back
+    - database struc
+    - download/request UK data
+- Rachael
+    - data request letter(s)
+    - CalCOFI-CBC
+- Lynn
+    - thinking about stats
+    - California citizen science
+    - bug Matt about setting up isis
+- Suzanne
+    - data request letter
+    - explore california citizen science
+    - find more papers with data
+    - test analysis    
+- Mary
+    - database structure
+    - test analysis on reef check
+- Brian
+    - data request letter
+    - finding more papers with data
+    - test analysis
+- Annie
+    - database structure
+    - CalCOFI-CBC
+    - move google docs to github

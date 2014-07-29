@@ -1,4 +1,4 @@
-###7/28/14
+### July 28, 2014
 - Everyone:
     - practice md, Rmd, git
 - Georgina

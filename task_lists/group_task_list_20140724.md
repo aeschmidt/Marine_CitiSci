@@ -1,4 +1,4 @@
-###7/24/14
+### July 24, 2014
 - Edit data request letter
     - Each member will edit
 - Suzanne 

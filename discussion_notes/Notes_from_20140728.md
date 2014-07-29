@@ -17,6 +17,7 @@
         - not using for now
     - possible to create website if interested
         - create branch called github pages
+
 ###Data
 - can go on KNB
     - make private group so only group members can use it
@@ -25,8 +26,10 @@
     - access via command line or RStudio
     - going with this option for now
 - BTsync alternative to dropbox (fileshare)
+
 ###Writing
 - write paper in .Rmd
+
 ###Dinner
 - Wednesday
     - BBQ

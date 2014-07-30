@@ -1,0 +1,18 @@
+#Marine Citizen Science literature search on Web of Science
+
+##"citizen scien*" AND marine* - 55
+##volunteer* AND marine*AND (observ* OR monitor*) - 246
+##Non-expert*" AND marine* - 30
+
+**In Lit Search carpark**
+Other data locations:
+-Citizen science sites for published papers on their work
+
+Other data sources:
+-Searches for papers that have data summaries and graphs/tables that have -metrics of interest for EITHER citizen science or researcher data
+  -Citizen science sites might have summaries of their data in publications or reports
+	-Researcher data for targeted taxa/locations where we have citizen science data
+
+Data tag for papers in google scholar:
+-Data_
+-Data_CSonly

@@ -1,7 +1,7 @@
 #Marine Citizen Science literature search on Web of Science
 
 ##"citizen scien*" AND marine* - 55
-##volunteer* AND marine*AND (observ* OR monitor*) - 246
+##volunteer* AND marine* AND (observ* OR monitor*) - 246
 ##Non-expert*" AND marine* - 30
 
 **In Lit Search carpark**

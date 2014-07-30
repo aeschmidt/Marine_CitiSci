@@ -1,0 +1,28 @@
+---
+title: "Test R Markdown (with citations)"
+author: "Georgina Adams"
+date: "Tuesday, July 29, 2014"
+output: html_document
+bibliography: oss_marine.bib
+
+---
+
+This is a test R markdown document [@Goffredo2004]. It shows how to cite references [@Hassell2013] stored in a bibtex file (oss_marine.bib). The bibtex file contains citation tags generated automatically by Mendeley in the form AuthorYear. It throws out some question marks if you try to put in a citation with a tag it doesn't know, like this [@Adams2300].
+
+```{r}
+# this is a package Karthik made to create an R colour palette based on Wes Anderson films.
+library('wesanderson')
+mk.cols<-wes.palette(4,'Moonrise3')
+```
+
+Plot iris data:
+
+```{r, echo=FALSE}
+plot(iris$Sepal.Width, iris$Sepal.Length, col=mk.cols[iris$Species], pch=19)
+```
+
+The plot has nice colours, better colours than [@Devictor2010] used, probably.
+
+
+# References
+

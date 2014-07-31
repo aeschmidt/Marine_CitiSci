@@ -1,5 +1,55 @@
-# Group Discussion Notes
 
+
+# Group Discussion Notes
+## 7/30/14
+### Lynn
+- in the queue with Matt for getting set up on isis
+- data searching
+- started ppt for presentation
+
+### Suzanne
+- papers
+    - found ~ 11 papers (with Brian)
+
+### Rachael
+- CBC data formatt/bash script
+    - very messy
+    - will require substantial formatting
+
+### Annie
+- worked on CalCOFI data
+    - doesn't look too bad
+    - wrote some pseudocode
+
+### Brian
+- Data
+- papers
+- formalize search
+
+### Georgina
+- made example citation md file on git
+- downloaded EU/UK still needs to dig into
+
+### Mary
+- format reefcheck
+    - joined ReefCheck data
+    - make example analysis
+
+
+## Presentation plan
+1. Intro 
+    - message box
+2. Approach/methods
+    - Examples from lit
+    - data so far
+    - database, paper tool
+3. Results
+    -  example output
+4. Next steps
+        
+
+## Future plans
+- holding off on further data requests
 
 ## 7/28/14
 ### Organization
@@ -64,3 +114,5 @@
     - CBC--CalCOFI
     - eBird--CalCOFI
     - Marine mammal stranding--
+
+> Written with [StackEdit](https://stackedit.io/).

@@ -1,0 +1,16 @@
+# How to link to ISIS on your pc
+
+# using terminal, log in to ISIS
+cd ~waterhouse/Marine_Data
+
+#return to your directory and make a folder called 'data'
+cd
+mkdir data
+ln -s ~waterhouse/Marine_Data data
+
+#now you have a folder in your directory called 'data' which links to the group folder 
+#anytime you put stuff in 'data' it appears in the group folder
+
+#to copy all .csv from a folder to the group dir 
+scp *.csv username@isis.nceas.ucsb.edu:data
+

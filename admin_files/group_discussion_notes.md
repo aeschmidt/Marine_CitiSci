@@ -3,22 +3,39 @@
 # Group Discussion Notes
 ## 8/1/14
 ###Analytical brainstorm
-- need to think about two different analytical methods
+**Need to think about two different analytical methods**
+  
   1. how to calculate metrics for CS data to be comparable with researcher data
-    - Brian and Suzanne: compile lists of methods used from literature
+    - Spatial considerations
+    - Density of data points
+    - Brian and Suzanne: compile lists of methods used from literature; possibly look at terrestrial examples too
   2. how to compare CS and researcher data across pairs
     - how to take into account different factors that influence outcome
       - added factors to database structure
         - dataset table to include methods used by different CS groups
           - need to determine how to codify (talk to Mark?)
-        - new table - Taxa table - to include data on each species
+      - new table - Taxa table - to include data on each species
           - includes Family, Genus, Species
           - includes Adult, Juvenile
           - other columns to be determined
-        - As going through data and papers, start to keep track of important factors so we can determine how to code and columns that need to be added
-        
-  Database:![alt text](https:///Suzanne/Pictures/2014-08-01\111/IMG_1335.jpg)
-  
+    - As going through data and papers, start to keep track of important factors so we can determine how to code and columns that need to be added
+          
+Database: 
+<img src= "C:\Users\Suzanne\Documents\NCEAS_OSS\Marine_project\Git_Marine\Marine_CitiSci\admin_files\DBstruc.jpg" width="400px" height="250px" /> 
+
+      
+    
+  - Using BIC or AIC - needs further discussion
+  - Log then z-score or z score then log
+
+###Notes from Week 2 Presentation Feedback
+
+  -  Quality of papers: Is there a way for us to take into account the quality of the published papers that we are including
+  - Costs: more data vs. quality - are there tradeoffs?
+  - How to take into account factors that affect the pair analysis
+  - Scale: how important is variation in outcome at different scale in terms of how CS data are being used, for example in management or in reporting on the state of the oceans
+  - Data model - you can have a natural language description of the methods that CS groups use, but need to find a way to codify - Mark can talk to us about this.
+     
 
 ## 7/30/14
 ### Lynn

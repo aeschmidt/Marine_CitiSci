@@ -1,6 +1,25 @@
 
 
 # Group Discussion Notes
+## 8/1/14
+###Analytical brainstorm
+- need to think about two different analytical methods
+  1. how to calculate metrics for CS data to be comparable with researcher data
+    - Brian and Suzanne: compile lists of methods used from literature
+  2. how to compare CS and researcher data across pairs
+    - how to take into account different factors that influence outcome
+      - added factors to database structure
+        - dataset table to include methods used by different CS groups
+          - need to determine how to codify (talk to Mark?)
+        - new table - Taxa table - to include data on each species
+          - includes Family, Genus, Species
+          - includes Adult, Juvenile
+          - other columns to be determined
+        - As going through data and papers, start to keep track of important factors so we can determine how to code and columns that need to be added
+        
+  Database:![alt text](https:///Suzanne/Pictures/2014-08-01\111/IMG_1335.jpg)
+  
+
 ## 7/30/14
 ### Lynn
 - in the queue with Matt for getting set up on isis

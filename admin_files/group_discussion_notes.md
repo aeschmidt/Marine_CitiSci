@@ -1,3 +1,80 @@
+##8/5/14
+### **Further Discussion of Analysis**
+- **Should we do metaanalysis** - Discussion with Chris Lortie
+  - systematic review
+    - filter data pairs
+      - readily available data
+    - chosing among different effect size metrics
+      - geographic scope
+      - breadth - species number
+      - number ind of each species
+    - volume is outcome??
+    - scraping funding for researcher and citizen science
+      - code how much money allocated to the effort
+      - money and data archiving - NSF cyber infra to allow institutions to curate data - big bang for buck
+
+- **Posting derived data** - ok as long as you cite where the data came from
+- Keeping track of where data came from to determine if there are errors, etc.
+  - columns in spreadsheet for where data comes from,
+    - table, figure, email to researcher, etc..
+- Try to use most basic (such as number of species or abundance) avoid the derived
+  - keep the type of metric coded so you can separate out and keep track of the different metrics, running sensitivity on whether it matters. Can disaggregate the measures and then reaggregate if it does not seem to matter
+
+- Discussion with Ben Bolker:
+  - questions from him:
+    - what is the i - data points
+    - what is sample function doing?
+    - What are we doing
+      - data cloud from points
+      - computing effect size from that
+  - Problems:
+    - want to do scaled effect size but might have weird dist, but we can do simulation
+    - big problem - treating ci and ri as if they are independent errors - may be plausible; we are saying mean is reliable, therefore the errors will not be correlated
+    - what are we trying to do; trying to determine effect size with CI
+    - are we reinventing metaphor package
+      - here are means and sd of effect sizes, tells me overall mean effect size is across all these groups
+      - how to go from many means and variances - how do we collapse down to one mean and one variance
+        - one point C and R mean and SD (on graph example)
+          - More established method delta method - to find variance
+          - Our method is to get by simulation (Brian's code)
+          - raw data - is it best to collapse the raw data into means and SD
+          - Simplicity and Complexity in Ecological Data Analysis: Paul A. Murtaugh- nested anova - if you've got nested design - fancy mixed modeling - can average groups and do one-way anova - similar to our raw data sitaution
+          - why picking a bunch of values and sampling one
+
+    - once we have the mean R and the var R we can plunk into metaphor
+    - two variances in graph
+      - year samples -> average -> effect size
+      - trying to get a grand mean across mean 
+        - does huge variation across years matter
+      - R = Grand mean of all points
+      - R = inverse variance weighted mean way to get the grand mean
+        - this can take into account large variance
+      - What is Grand mean with both in sample variance and the over years variance -
+        - overall variance is among year variance + w/in year variance over N - can find this in the literature
+      - Two stages
+        - getting overall c (mean and variance from subsamples)
+        - then simulation
+    - computing Rii at lowest levels that you can match the C and R's (example by year, depth, wahtever)
+      - can use delta method
+      - can simulate
+      - can sample randomly from each of the 100 samples
+    - then have Rii for each year, depth, bin, etc
+    - variance weighted averaging to get the mean Rii
+    - combine the variances of those Rii's to get an overall variance
+    - with paper with only 8 points
+      - assume normality
+      - eight Rii 
+        - if have variance at sample level - you can use that
+        - otherwise the overall variance 
+
+    - Maybe as first pass find Rii and don't worry about sample variance
+    - variance that goes in should be standard error of the mean- figure out SE of Ci and Ri which should give you a variance on the Rii and then can use that to calculate the grand mean.
+
+Outcome workflow:
+
+
+
+
 
 
 # Group Discussion Notes
@@ -21,7 +98,7 @@
     - As going through data and papers, start to keep track of important factors so we can determine how to code and columns that need to be added
           
 Database: 
-<img src= "C:\Users\Suzanne\Documents\NCEAS_OSS\Marine_project\Git_Marine\Marine_CitiSci\admin_files\DBstruc.jpg" width="400px" height="250px" /> 
+![Database](https://github.com/aeschmidt/Marine_CitiSci/blob/master/admin_files/DBstruc.JPG) 
 
       
     

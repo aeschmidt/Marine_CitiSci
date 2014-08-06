@@ -1,4 +1,24 @@
+###August 5, 2014
+- Georgina
+    -Europe paired data sets
+- Rachael
+    - BBS to pair with CalCOFI
+-Lynn
+    - Published data pairs
+- Brian 
+    - Published data pairs
+- Mary
+    - Coral data pairs (fish too?)
+- Suzanne
+    - Published data pairs
+    - Systematic review 
 
+We are trying to get to this:
+
+Tasks for tomorrow (Wednesday)
+- Future plans
+- Stats method box
+- Reg method box
 
 ### July 28, 2014
 - Everyone:

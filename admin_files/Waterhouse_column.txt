@@ -1,0 +1,27 @@
+#Text file of ideas to add to column headers
+
+#raw data table
+-presence/absence
+-length (mm)
+-length metric (total, head, etc.)
+-weight (kg)
+-abundance (numbers)
+-abundance (other metric)<-REEF is Single-Few-Many-Abundant
+-date (choose common format) - may only have metrics on yearly basis so consider doing one column year one month one day and maybe one column with more detailed format
+-location (may need to be multiple columns)
+-depth
+-temperature (deg C)
+-current
+-visibility (m)
+-collector ID
+-experience level of collector
+-Family 
+- Genus 
+- Species
+-Time spent searching (effort metric)
+-Other effort metric
+- collection method 
+- data type (raw data or summary data or extracted data)
+
+
+**may consider for measurements in metric or english system, have raw values recorded and then include another column with what the units are..

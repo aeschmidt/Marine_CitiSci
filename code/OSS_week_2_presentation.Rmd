@@ -1,0 +1,32 @@
+---
+title: "Citizen Science in the Marine Environment"
+author: "Georgina Adams - Mary Donovan - Suzanne Langridge - 
+Rachael Orban - Annie Schmidt - Brian Stock - Lynn Waterhouse"
+date: "August 1, 2014"
+output: ioslides_presentation
+---
+
+
+## Message Box
+- Issue
+
+- Approach/methods
+    - Examples from lit
+    - data so far
+    - database, paper tool
+- Results
+    -  example output
+- Next steps
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+

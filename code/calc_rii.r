@@ -1,6 +1,6 @@
-# Boxplot of C-R difference
+# Calculate R_ii for a group of files
 # Brian Stock
-# 8/4/14
+# 8/6/14
 
 setwd("/home/stock/data/Marine_Data")
 

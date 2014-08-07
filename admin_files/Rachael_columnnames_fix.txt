@@ -1,0 +1,13 @@
+
+geographical scope - global, continent, regional
+temporal scope - all the time, seasonally, monthly, daily
+sampling methods - transect, point, quadrate, random (opportunistic)
+
+
+Family
+Genus
+Species
+Common Name
+
+number of observers (changes for each point for CBC / BBS)
+effort & effort units

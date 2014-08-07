@@ -1,0 +1,13 @@
+ORG_table,DATASET_table,PAIRS_table,RAW_DATA_table,PAPER_DATA_table,TAXA_table
+orgID,orgID,pairID,datasetID,paperID,taxaID
+name,datasetID,datasetID_C,taxaID,C_data,family
+url,type (C/R),datasetID_R,values,C_se,genus
+contact,location,taxaID,,R_data,species
+,biome,location,,R_se,
+,notes,biome,,covariate1,
+,url,,,covariate2,
+,contact,,,covariate3,
+,group member,,,metric,
+,,,,"methods (how got data from paper, e.g. Table 4)",
+,,,,notes,
+,,,,location,

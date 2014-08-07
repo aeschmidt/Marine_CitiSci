@@ -1,0 +1,63 @@
+organization table
+1. ID
+2. Organization Name
+3. Contact Name
+4. email
+5. access
+6. collection method (e.g. researcher,crowd sourced,standardized citizen) 
+
+
+datasets
+1. org_id
+2. id
+3. study_type (C/R)
+4. taxa
+5. biome
+6. region
+7. country
+8. location name
+9. lat
+10. long
+11. source (raw or paper citation)
+12. metric--the way this is set up now, each raw data table has several metrics (e.g. length, count) so this column may not make sense
+13. start year
+14. end year
+
+
+raw data tables
+1. id
+2. dataset_id
+3. year
+4. date
+5. genus
+6. species
+7. life stage (juv/adult)
+8. length
+9. depth
+10. count
+11. present (0/1)
+
+(might need another datasets table for just the published datasets?)
+pub data table
+1. id
+2. dataset_id
+3. year
+4. date
+5. genus
+6. species
+7. life stage
+8. length
+9. depth
+10. count
+11. diversity
+
+
+data pairs
+1. id
+2. dataset_id_c
+3. dataset_id_r
+4. location data (several columns)
+5. taxa
+6. genus?
+7. species?
+6. metric

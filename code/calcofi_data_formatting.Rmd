@@ -1,0 +1,60 @@
+---
+title: "CalCOFI seabird data formatting"
+author: "Annie Schmidt"
+date: "July 31, 2014"
+output: html_document
+---
+
+This R markdown document contains code for formatting the CalCOFI seabird data survey into consistent format to include in our Marine CitiSci database
+```{r load packages}
+# Load libraries needed
+library(stringr)
+
+```
+Load data
+```{r load data}
+# Load CalCOFI seabird observations
+# Change path to point to your data file
+cc_obs <- read.csv("/Users/aeschmidty/Google Drive/OSS Marine Project/Data/Bird and Mammal Census - CalCOFI cruises.csv",header=TRUE)
+# Check that data loaded correctly
+head(cc_obs)
+tail(cc_obs)
+summary(cc_obs)
+names(cc_obs)
+
+# Remove periods from column names
+names(cc_obs)<-gsub("[.]", "", names(cc_obs))
+
+# Load CalCOFI transect data
+cc_trans<- read.csv("/Users/aeschmidty/Google Drive/OSS Marine Project/Data/Bird and Mammal Census Log - CalCOFI cruises.csv",header=TRUE)
+# Check that data loaded correctly
+head(cc_trans)
+tail(cc_trans)
+summary(cc_trans)
+names(cc_trans)
+
+# replace column headings
+# Remove periods from column names
+names(cc_trans)<-gsub("[.]", "", names(cc_trans))
+names(cc_trans)<-gsub("[º]","", names(cc_trans))
+# names(cc_trans)<-gsub("[expression(~degree)]","", names(cc_trans))
+names(cc_trans)
+
+cc_trans$GISkey <- as.character(cc_trans$GISkey)
+
+tm <- merge(cc_obs,cc_trans, by = "GISkey")
+
+cc_trans[cc_trans$"GISkey"=="CAC19870502F12",]
+```
+
+# pull GIS.key from transect table
+# find table of AOU alpha codes
+# add columns for Genus and species
+# add other columns to make consistent with mega database?
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
